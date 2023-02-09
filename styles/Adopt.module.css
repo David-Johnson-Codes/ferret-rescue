@@ -1,0 +1,41 @@
+.adoptContainer {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+    gap: 4rem;
+
+}
+
+.infoContainer {
+    flex: 0 50%;
+}
+
+.para {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.img {
+    flex: 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .adoptContainer {
+        display: flex;
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+    .adoptContainer {
+        display: flex;
+        width: 95%;
+    }
+}
